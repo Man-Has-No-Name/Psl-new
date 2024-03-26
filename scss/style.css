@@ -1,0 +1,265 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.logos {
+  display: flex;
+  justify-content: end;
+  background: rgb(0, 156, 0);
+  background: linear-gradient(317deg, rgb(25, 93, 16) 49%, rgb(0, 156, 0) 49%);
+  gap: 10px;
+  padding: 0%;
+  padding-right: 150px;
+  height: 40px;
+}
+.logos ul {
+  list-style-type: none;
+  display: flex;
+}
+.logos ul li {
+  display: inline;
+  margin-left: 8px;
+  gap: 8px;
+}
+.logos ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  gap: 7px;
+  align-items: center;
+  font-size: 1.4em;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Oswald", sans-serif;
+  background: rgb(10, 37, 6);
+  background: linear-gradient(312deg, rgb(10, 37, 6) 53%, rgb(0, 62, 0) 53%);
+}
+.second ul {
+  list-style-type: none;
+  display: inline-block;
+}
+.second ul li {
+  display: inline;
+  margin-left: 8px;
+  gap: 8px;
+}
+.second ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.second a:hover {
+  background-color: white;
+  color: black;
+}
+
+.dd {
+  display: none;
+  background-color: #0a3406;
+}
+
+.third {
+  background: rgb(25, 93, 16);
+  background: linear-gradient(317deg, rgb(0, 156, 0) 58%, rgb(25, 93, 16) 58%);
+  height: 80px;
+}
+
+.points {
+  margin-left: 36vw;
+  color: #195d10;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.table {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+.table thead tr th {
+  border: 1px solid black;
+  padding: 10px;
+}
+.table tbody tr td {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.teams {
+  margin-left: 36vw;
+  color: #195d10;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.teamlogo {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1440px) {
+  .logos {
+    background-color: black;
+  }
+}
+@media (max-width: 991px) {
+  .second {
+    display: none;
+  }
+  .dd {
+    display: block;
+  }
+}
+.stats {
+  margin-left: 40vw;
+  color: #195d10;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.stat {
+  background-color: #195d10;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  max-width: 1180px;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  padding: 0px;
+}
+.stat h1 {
+  margin-bottom: 0px;
+}
+
+.font {
+  font-family: "Roboto Slab", serif;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.latest {
+  margin-left: 40vw;
+  color: #195d10;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.t {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.t1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.sponsor {
+  display: flex;
+  justify-content: center;
+  color: #195d10;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.sp {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  list-style: none;
+  padding-left: 8%;
+}
+.list ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.list ul li {
+  margin: 0%;
+  padding-left: 0%;
+}
+.list ul a {
+  color: #777777;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.f1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 4%;
+}
+
+.f1 a:hover {
+  color: black;
+}
+
+.address {
+  padding-left: 11%;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.last {
+  display: flex;
+  list-style: none;
+  padding-left: 11%;
+  gap: 5px;
+}
+.last ul {
+  list-style-type: none;
+  display: inline-block;
+}
+.last ul li {
+  display: inline;
+  margin-left: 8px;
+  gap: 8px;
+}
+.last ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.bottom {
+  background-color: #195d10;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 0%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logoborder {
+  border-left: solid white 2px;
+  margin-left: 10px;
+  padding-left: 10px;
+}/*# sourceMappingURL=style.css.map */
